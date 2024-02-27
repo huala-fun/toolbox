@@ -12,6 +12,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "element-plus": "^2.5.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.15",
@@ -25,8 +26,11 @@
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/test-utils": "^2.4.4",
     "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.17",
     "jsdom": "^24.0.0",
     "npm-run-all2": "^6.1.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
     "typescript": "~5.3.0",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",

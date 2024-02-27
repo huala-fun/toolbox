@@ -1,21 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Layout from './components/layouts/Index.vue'
+import {
+  Check,
+  Delete,
+  Edit,
+  Message,
+  Search,
+  Star,
+} from '@element-plus/icons-vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="/favicon.ico" width="125" height="125" />
-    <div class="wrapper">
-      <HelloWorld msg="开发工具箱" />
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <Layout>
 
-  <RouterView />
+    <RouterView />
+  </Layout>
 </template>
 
 <style scoped>
